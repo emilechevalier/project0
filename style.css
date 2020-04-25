@@ -1,0 +1,20 @@
+.td_align {
+  text-align: center;
+}
+
+tr td {
+  text-align: center;
+}
+
+.screen-only {
+  text-align: center;
+  font-weight: bold;
+}
+
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

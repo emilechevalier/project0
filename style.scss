@@ -1,0 +1,23 @@
+$alignement: center;
+
+.td_align {
+  text-align: $alignement;
+}
+
+tr {
+  
+  td {
+    text-align: $alignement;
+  }
+}
+
+.screen-only{
+  text-align: $alignement;
+  font-weight: bold;
+}
+
+@media print {
+  .screen-only {
+    display: none;
+  }
+}
